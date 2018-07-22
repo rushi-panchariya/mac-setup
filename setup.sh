@@ -31,6 +31,7 @@ install_brew_packages() {
         gradle \
         htop \
         maven \
+        sonar-scanner \
         shellcheck \
         ssh-copy-id \
         tree \
