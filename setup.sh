@@ -17,7 +17,7 @@ install_and_update_homebrew() {
 install_brew_packages() {
     brew tap git-duet/tap
     brew tap go-task/tap
-    brew cask install java
+    brew cask install corretto
 
     brew install \
         bash \
