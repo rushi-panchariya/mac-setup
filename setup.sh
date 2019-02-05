@@ -40,14 +40,13 @@ install_brew_packages() {
         watch \
         wget
         
-    brew install vim --override-system-vi
+    brew install vim
     
     brew cask install \
-        app-cleaner \
+        appcleaner \
         cyberduck \
         docker \
         enpass \
-        etcher \
         flowsync \
         google-chrome \
         github \
