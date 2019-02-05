@@ -15,11 +15,13 @@ install_and_update_homebrew() {
 }
 
 install_brew_packages() {
+    brew tap getantibody/tap
     brew tap git-duet/tap
     brew tap go-task/tap
     brew cask install corretto
 
     brew install \
+        antibody \
         bash \
         bash-completion2 \
         git \
