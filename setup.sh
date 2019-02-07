@@ -15,11 +15,13 @@ install_and_update_homebrew() {
 }
 
 install_brew_packages() {
+    brew tap getantibody/tap
     brew tap git-duet/tap
     brew tap go-task/tap
-    brew cask install java
+    brew cask install corretto
 
     brew install \
+        antibody \
         bash \
         bash-completion2 \
         git \
@@ -38,14 +40,13 @@ install_brew_packages() {
         watch \
         wget
         
-    brew install vim --override-system-vi
+    brew install vim
     
     brew cask install \
-        app-cleaner \
+        appcleaner \
         cyberduck \
         docker \
         enpass \
-        etcher \
         flowsync \
         google-chrome \
         github \
