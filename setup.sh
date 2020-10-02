@@ -61,7 +61,7 @@ install_brew_packages() {
         the-unarchiver \
         tigervnc-viewer \
         tunnelblick \
-        visual-studio-code 
+        visual-studio-code \
         vlc
 }
 
